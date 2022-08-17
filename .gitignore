@@ -1,0 +1,6 @@
+﻿venv
+client_secrets.json
+upload_video.py-oauth2.json
+final.mp4
+recorded_sound_of_video.wav
+recorded_screen_of_video.mp4
