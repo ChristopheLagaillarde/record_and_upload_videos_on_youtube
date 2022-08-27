@@ -1,6 +1,8 @@
 # record_and_update_video_on_youtube
 Version: 1.0
 
+PROJECT ON HIATUS
+
 # How to make it work 
 1. Add the upload_video.py-oauth2.json from the youtube api to make it work
 2. Once it run, type 'q' to stop it
