@@ -62,13 +62,13 @@ def main() -> None:
             logging.error('Must be an integer')
 
     logging.info('Uploading video on youtube')
-    os.system("python upload_video.py "
-              "--file='final.mp4' "
-              "--title='" + title
-              + "' --description='" + description
-              + "' --category='22' "
-                "--keywords='" + keywords
-              + "--privacyStatus='" + privacy_status)
+    os.system(f"python upload_video.py "
+              f"--file=final.mp4 "
+              f"--title='{title}' "
+              f"--description='{description}' "
+              f"--category='22' "
+              f"--keywords='{keywords}' "
+              f"--privacyStatus={privacy_status}")
 
     return None
 
